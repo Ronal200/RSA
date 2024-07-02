@@ -1,0 +1,18 @@
+USO
+Para generar las claves, encriptar y desencriptar un mensaje, simplemente ejecuta el archivo  RSA.py.
+
+bash
+Python RSA.y
+
+Ejemplo:
+Clave publico:(e,n)
+Clave privada:(d,n)
+Mensaje cifrado:[lista de numeros]
+Mensaje decifrado:Hola mundo
+
+DESCRIPCION DEL CODIGO
+
+generate_prime(bits): Genera un número primo de la longitud especificada en bits.
+generate_keypair(bits): Genera un par de claves RSA (pública y privada) utilizando números primos de la longitud especificada.
+encrypt(plaintext, public_key): Encripta un mensaje utilizando la clave pública.
+decrypt(ciphertext, private_key): Desencripta un mensaje utilizando la clave privada.
